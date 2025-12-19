@@ -1,3 +1,8 @@
+# Python List Program
+
+## Code:
+
+```python
 myList = [1, 2, 3, 'EducBA', 'makes learning fun!']
 myList.append(4)
 myList.append(5)
@@ -6,6 +11,3 @@ myList.append(6)
 for i in range(7, 9):
     myList.append(i)
     print(myList)
-#outout
-[1, 2, 3, 'EducBA', 'makes learning fun!', 4, 5, 6, 7]
-[1, 2, 3, 'EducBA', 'makes learning fun!', 4, 5, 6, 7, 8]
