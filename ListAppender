@@ -11,3 +11,10 @@ myList.append(6)
 for i in range(7, 9):
     myList.append(i)
     print(myList)
+
+[1, 2, 3, 'EducBA', 'makes learning fun!', 4]
+[1, 2, 3, 'EducBA', 'makes learning fun!', 4, 5]
+[1, 2, 3, 'EducBA', 'makes learning fun!', 4, 5, 6]
+[1, 2, 3, 'EducBA', 'makes learning fun!', 4, 5, 6, 7]
+[1, 2, 3, 'EducBA', 'makes learning fun!', 4, 5, 6, 7, 8]
+
