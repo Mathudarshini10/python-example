@@ -1,0 +1,11 @@
+#dictionary printer
+
+my_dict = {"name": "Alice", "age": 30, "city": "New York"}
+
+print(f"Name: {my_dict['name']}")
+print(f"Age: {my_dict['age']}")
+
+#output
+
+Name: Alice
+Age: 30
