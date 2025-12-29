@@ -1,0 +1,12 @@
+p = float(input("Enter Principal: "))
+r = float(input("Enter Rate: "))
+t = float(input("Enter Time: "))
+si = (p * r * t) / 100
+print("Simple Interest is:", si)   
+
+#output
+
+Enter Principal: 5
+Enter Rate: 8
+Enter Time: 6
+Simple Interest is: 2.4
