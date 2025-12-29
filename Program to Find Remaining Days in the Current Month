@@ -1,0 +1,18 @@
+import datetime
+
+today_day = int(input("Enter today's date (day only): "))
+today_month = datetime.datetime.now().month
+
+if today_month == 2:
+    total_days = 28
+elif today_month in (1, 3, 5, 7, 8, 10, 12):
+    total_days = 31
+else:
+    total_days = 30
+
+remaining_days = total_days - today_day
+print("Total remaining days in the current month are:", remaining_days)   
+
+#output
+Enter today's date (day only): 4
+Total remaining days in the current month are: 27
