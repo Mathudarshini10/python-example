@@ -1,0 +1,22 @@
+a = float(input("Enter 1st number: "))
+b = float(input("Enter 2nd number: "))
+c = input("Enter the Operation (+, -, /, *): ")
+
+print("The result is:", end=" ")
+
+if c == '+':
+    print(a + b)
+elif c == '-':
+    print(a - b)
+elif c == '/':
+    print(a / b)
+elif c == '*':
+    print(a * b)
+else:
+    print("Error: Wrong operator entered")
+#output
+
+Enter 1st number: 3
+Enter 2nd number: 6
+Enter the Operation (+, -, /, *): +
+The result is: 9.0
