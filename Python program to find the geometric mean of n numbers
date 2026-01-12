@@ -1,0 +1,25 @@
+"""
+Program 63: Python program to find the geometric mean of n numbers
+"""
+
+import math
+
+count = int(input("Enter the number of values: "))
+product = 1.0  # To store the product of numbers
+
+for i in range(count):
+    x = float(input(f"Enter value {i+1}: "))
+    product *= x
+
+# Calculate geometric mean
+geometric_mean = math.pow(product, 1.0 / count)
+
+print("The geometric mean is:", geometric_mean)
+
+output
+
+Enter the number of values: 3
+Enter value 1: 2
+Enter value 2: 8
+Enter value 3: 4
+The geometric mean is: 4.0
