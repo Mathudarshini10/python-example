@@ -1,0 +1,15 @@
+# 84. Python program to print Fibonacci series using iteration
+a, b = 0, 1
+n = int(input("Enter the number of terms in the sequence: "))
+print("Fibonacci series:", a, b, end=" ")
+
+for _ in range(n-2):
+    c = a + b
+    print(c, end=" ")
+    a, b = b, c
+
+"""
+Output:
+Enter the number of terms in the sequence: 7
+Fibonacci series: 0 1 1 2 3 5 8
+"""
