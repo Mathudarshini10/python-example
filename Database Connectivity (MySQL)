@@ -1,0 +1,23 @@
+import mysql.connector
+
+conn = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="",
+    database="db1"
+)
+
+cur = conn.cursor()
+cur.execute("INSERT INTO books VALUES (101,'Python')")
+conn.commit()
+
+cur.execute("SELECT * FROM books")
+print(cur.fetchall())
+
+conn.close()
+Output
+
+css
+Copy code
+Record inserted successfully
+[(101, 'Python')]
