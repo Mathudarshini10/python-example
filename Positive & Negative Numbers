@@ -1,0 +1,25 @@
+pos, neg = [], []
+n = int(input("Enter number of elements: "))
+
+for i in range(n):
+    x = int(input("Enter value: "))
+    if x >= 0:
+        pos.append(x)
+    else:
+        neg.append(x)
+
+print("Positive List:", pos)
+print("Negative List:", neg)
+Output
+
+mathematica
+Copy code
+Enter number of elements: 6
+2
+-3
+-5
+9
+-8
+7
+Positive List: [2, 9, 7]
+Negative List: [-3, -5, -8]
